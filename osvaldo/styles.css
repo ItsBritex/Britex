@@ -28,9 +28,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(banner.png) no-repeat center center;
+    background: url(banner.gif) no-repeat center center;
     background-size: 110%;
-    filter: blur(10px); /* Desenfoque */
+    filter: blur(5px); /* Desenfoque */
     z-index: -1; /* Asegura que el contenido del header quede encima del fondo desenfocado */
 }
 
@@ -59,7 +59,15 @@ body {
 
 .subtitle {
     font-size: 1.2em;
-    color: #cccccc;
+    color: #ffc3ad;
+    text-shadow: 
+        0 0 5px #ffc3ad, 
+        0 0 10px #ffc3ad, 
+        0 0 20px #ff9d7d, 
+        0 0 30px #ff9d7d, 
+        0 0 40px #ff784b, 
+        0 0 50px #ff784b, 
+        0 0 60px #ff501e;
 }
 
 .container {

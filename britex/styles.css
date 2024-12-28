@@ -28,9 +28,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(bg.png) no-repeat center center;
-    background-size: 510%;
-    filter: blur(10px); /* Desenfoque */
+    background: url(banner.gif) no-repeat center center;
+    background-size: 110%;
+    filter: blur(5px); /* Desenfoque */
     z-index: -1; /* Asegura que el contenido del header quede encima del fondo desenfocado */
 }
 
